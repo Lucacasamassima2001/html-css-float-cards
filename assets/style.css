@@ -1,7 +1,11 @@
 body{
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Exo 2', sans-serif;
 }
+
+
+/* LAYOUT CSS */
+
 
 .container{
     max-width: 1200px;
@@ -14,10 +18,9 @@ body{
 
 
 h1{
-    color: rgb(157, 72, 237);
+    color: rgb(217, 47, 158);
     padding: 10px;
     font-size: 35px;
-    
 }
 
 
@@ -27,6 +30,9 @@ p{
 }
 
 
+/* CARDS CSS */
+
+
 .card{
     text-align: left;
     margin-left: 30px;
@@ -34,26 +40,28 @@ p{
     float: left;
     color: white;
     width: 360px;
-    height: 100px;
+    height: 115px;
     background-color: black;
 }
 
 .left{
     height: 100%;
     float: left;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .nome{
     font-size: 20px;
     font-weight: bold;
-    padding: 5px;
+    margin-top: 10px;
 }
 
 .role{
-    padding: 5px;
+    margin-top: 10px;
 }
 
 .email{
+    margin-top: 10px;
+    display: block;
     color: rgb(76, 204, 204);
 }
