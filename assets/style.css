@@ -9,24 +9,25 @@ body{
 
 .container{
     max-width: 1200px;
-    height: 800px;
+    height: 500px;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
-    padding-top: 10px;
+    padding-top: .2em;
 }
 
 
 h1{
     color: rgb(217, 47, 158);
-    padding: 10px;
-    font-size: 35px;
+    padding: .3em;
+    font-size: 2.5em;
 }
 
 
 p{
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
+    margin-left: 20px;
 }
 
 
@@ -35,33 +36,40 @@ p{
 
 .card{
     text-align: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
+    margin-left: 2em;
+    margin-bottom: 3em;
     float: left;
     color: white;
-    width: 360px;
-    height: 115px;
+    width: calc(1100px/3);
+    height: 110px;
     background-color: black;
 }
+
 
 .left{
     height: 100%;
     float: left;
-    padding-right: 15px;
+    padding-right: 1em;
 }
 
 .nome{
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: .5em;
 }
 
+
 .role{
-    margin-top: 10px;
+    margin-top: .7em;
 }
 
 .email{
-    margin-top: 10px;
+    text-decoration: none;
+    margin-top: .7em;
     display: block;
     color: rgb(76, 204, 204);
+}
+
+.email:hover{
+    text-decoration: underline;
 }
